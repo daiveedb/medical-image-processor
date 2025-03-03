@@ -123,7 +123,7 @@ public:
 
         // Add text content
         contentArray.push_back({{"type", "text"},
-                                {"text", "Please analyze this medical scan and provide a detailed description of what you see."}});
+                                {"text", "Please analyze this image and identify any potential abnormalities or areas of concern as detailed as possible."}});
 
         // Add image content
         contentArray.push_back({{"type", "image"},
